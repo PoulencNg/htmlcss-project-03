@@ -14,7 +14,6 @@ header {
     background: #10375C;
     position: sticky;
     top:-22px;
-
 }
 a {
     text-decoration: none;
@@ -23,7 +22,7 @@ a {
     width:1170px;
     margin:0 auto;
 }
-.header .main-content {
+.header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,9 +31,12 @@ a {
 }
 .logo {
     width: 50px;
-    display: inline-flex;
+    display: flex;
     font-size: 1rem;
     text-align: right;
+}
+.logo__link {
+    display: flex;
 }
 .logo__img {
     width: 30px;
@@ -70,6 +72,7 @@ a {
     padding: 10px 16px;
 }
 .nav__link:hover {
+    color:white;
     font-weight: 400;
 }
 .user {
@@ -106,4 +109,76 @@ a {
     font-weight: 400;
     height:44px;
     margin-left: 28px;
+}
+
+/* ***Hero*** */
+.hero {
+    display: flex;
+    width:1170px;
+    margin:0 auto;
+    padding-top: 80px;
+}
+.hero__content {
+    padding-top: 60px;
+}
+.hero__title {
+    color: #FFF;
+    font-family: Sora;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.14; /* 114.286% */
+    letter-spacing: -1.4px;
+    width: 517px;
+    margin-bottom: 22px;
+}
+.hero__desc {
+    width: 468px;
+    color: #C9D2DA;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6; /* 166.667% */
+}
+.hero__row {
+    display: flex;  
+    align-items: center;
+    margin-top: 38px;
+}
+.hero__book {
+    --height:60px;
+    min-width:205px;
+    height:var(--height);
+    line-height:var(--height);
+    text-align: center;
+}
+.hero__phone {
+    color: #FFF;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; /* 166.667% */
+    margin-left: 38px;
+}
+.hero__media {
+    margin-left: auto;
+}
+.hero__media--big {
+    position: relative;
+    margin-right:-6px;
+    display: inline-block;
+    width: 330px;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.hero__media--small {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 210px;
+    height: 410px;
+    border-radius: 0px 6px 6px 0px;  
 }
