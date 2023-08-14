@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Sora', sans-serif;
+}
+/* Common */
+header {
+    background: #10375C;
+    position: sticky;
+    top:-22px;
+
+}
+a {
+    text-decoration: none;
+}
+.main-content {
+    width:1170px;
+    margin:0 auto;
+}
+.header .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+.logo {
+    width: 50px;
+    display: inline-flex;
+    font-size: 1rem;
+    text-align: right;
+}
+.logo__img {
+    width: 30px;
+    height: 30px;
+}
+.logo__name {
+    margin-left: 6px;
+    color: #FFF;
+    text-align: right;
+    font-family: Sora;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.logo__name--small {
+    color: #FFF;
+    font-family: Sora;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+}
+.nav__list {
+    display: flex;
+}
+.nav__link {
+    color: #C9D2DA;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+.nav__link:hover {
+    font-weight: 400;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+.user__link--login {
+    color: #C9D2DA;
+    text-align: right;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+}
+.btn {
+    display: inline-block;
+    min-width:205px;
+    border-radius: 22px;
+    background: #2E80CE;
+    color: #FFF;
+}
+.btn:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+.user__link--signup {
+    border:1px solid #2E80CE;
+
+    min-width:104px;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    height:44px;
+    margin-left: 28px;
+}
