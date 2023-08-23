@@ -553,11 +553,17 @@ a {
 
 /* ==Install=== */
 .install {
-    display: flex;
     margin-top: 265px;
+    
+}
+.install__body {
+    display: flex;
     border-radius: 4px;
-    background: #2E80CE;
     height:427px;
+    width:var(--primary-width);
+    margin:0 auto;
+    background: #2E80CE;
+
 }
 .install__img {
     margin-left: 70px;
